@@ -1,0 +1,972 @@
+/*
+
+[TABLE OF CONTENTS]
+
+1. Content
+2. Weekend Workshops
+3. Retreats
+4. Contact
+6. Articles
+7. Press
+8. Schedule
+9. 200 Hr Training
+10. Teacher Training Incentives
+11. Yoga Poses (Blog)
+12. Media Queries
+
+*/
+
+
+
+/* 1. Content -------------------- */
+
+.contentwrapper {
+
+	margin: 35px auto 0 auto;
+	width: 100%;
+	max-width: 835px;
+
+}
+
+.contentwrapper .feature {
+
+	background-color: #E6E7E8;
+	width: 100%;
+
+}
+
+.contentwrapper .feature img {
+
+	display: inline;
+	margin: 10px 5px 10px 10px;
+
+}
+
+.contentwrapper .feature img + img {
+
+	margin-left: 5px;
+
+}
+
+.content {
+
+	width: 90%;
+	max-width: 780px;
+	margin: 35px 0 40px 10px;
+
+}
+
+h1,
+h2 {
+
+	font-size: 27px;
+	font-weight: normal;
+	color: #cc303a;
+	font-family: DINWeb;
+	margin: 0 0 25px;
+
+}
+
+.content p + h1 {
+
+	clear: both;
+
+}
+
+.content p {
+
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3a3b3c;
+	line-height: 20px;
+	margin: 0 0 20px;
+
+}
+
+.content a {
+
+	color: #cc303a;
+
+}
+
+.col {
+	
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 25px 0 0;
+
+}
+
+.col + .col {
+
+	margin: 0 0 0 0;
+
+}
+
+img.alignleft {
+
+	float: left;
+	margin: 0 60px 40px 0;
+
+}
+
+.bluebox {
+
+	background-color: #EEF7F8;
+	padding: 25px 35px 25px 35px;
+	margin: 20px 0;
+
+}
+
+.bluebox h2,
+.bluebox h3 {
+
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	color: #3a3b3c;
+	margin: 0 0 20px;
+
+}
+
+.bluebox h2 {
+
+	font-size: 18px;
+
+}
+
+.bluebox h3 {
+
+	font-size: 14px;
+
+}
+
+.bluebox .col h2 {
+
+	font-size: 14px;
+	padding: 0;
+	margin: 0 0 5px;
+
+}
+
+.bluebox .col h3 {
+
+	color: #cc303a;
+	padding: 0;
+	margin: 0 0 20px;
+
+}
+
+.bluebox .col {
+
+	margin: 45px 0 45px 0;
+	min-height: 172px;
+
+}
+
+.bluebox .col a {
+
+	font-weight: bold;
+	color: #cc303a;
+
+}
+
+.bluebox .col img {
+
+	float: left;
+	margin-right: 15px;
+
+}
+
+.bluebox .col .register {
+
+	float: none;
+
+}
+
+.mediabox {
+
+	padding: 0 0 50px;
+
+}
+
+.mediabox .col {
+
+	width: 150px;
+	margin: 0 30px 0 0;
+
+}
+
+.mediabox .col + .col {
+
+	width: 525px;
+	margin: 0 0 0 0;
+
+}
+
+a.register {
+
+	display: block;
+	width: 163px;
+	height: 39px;
+	background: url(../images/registernow.png);
+
+}
+
+a.workshop {
+
+	display: block;
+	width: 197px;
+	height: 39px;
+	background: url(../images/btn-workshop.png);
+
+}
+
+a.email {
+
+	display: block;
+	width: 153px;
+	height: 39px;
+	background: url(../images/btn-email.png);
+
+}
+
+a.download {
+
+	display: block;
+	width: 140px;
+	height: 30px;
+	background: url(../images/btn-download.png);
+
+}
+
+a.readArticle {
+
+	display: block;
+	width: 140px;
+	height: 30px;
+	background: url(../images/btn-readArticle.png);
+
+}
+
+.center {
+
+	display: block;
+	margin: 45px auto;
+	max-width: 100%;
+
+}
+
+hr {
+	background: #cc303a;
+	height: 1px;
+	border: 0;
+	margin: 40px 0 0;
+}
+
+hr + hr {
+
+	margin-top: 7px;
+
+}
+
+.pag {
+
+	color: #cc303a;
+	text-transform: uppercase;
+	font-family: DINWeb-Bold;
+	padding: 35px 0 0;
+	font-size: 18px;
+	height: 18px;
+	position: relative;
+
+}
+
+.pag .previous {
+
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 35px;
+
+}
+
+.pag .next {
+
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 35px;
+
+}
+
+/* ---------- END Content ---------- */
+
+
+
+/* 2. Weekend Workshops -------------------- */
+
+.page-id-23 .contentwrapper {
+
+	max-width: 731px;
+
+}
+
+.page-id-23 .workshop {
+
+	margin: 0 auto;
+
+}
+
+/* ---------- END Weekend Workshops ---------- */
+
+
+
+/* 3. Retreats -------------------- */
+
+.page-id-27 .content {
+
+	width: 100%;
+	max-width: 800px;
+
+}
+
+.page-id-27 .content .col {
+
+	width: 310px;
+
+}
+
+.page-id-27 .content .col + .col {
+
+	width: 455px;
+
+}
+
+.page-id-27 a.email {
+
+	margin: 0 auto;
+
+}
+
+.page-id-27 a.email {
+
+	margin: 0 auto;
+
+}
+
+.page-id-27 h3 {
+
+	color: #cc303a;
+	font-size: 16px;
+	margin: 30px 0 10px;
+
+}
+
+.page-id-27 .content .col + .col h1,
+.page-id-27 .content .col + .col h2 {
+
+	color: #3a3a3c;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	margin: 0 0 10px;
+
+}
+
+.page-id-27 .content .col + .col h1 {
+
+	font-size: 26px;
+
+}
+
+.page-id-27 .content .col + .col h2 {
+
+	font-size: 20px;
+
+}
+
+.page-id-27 .content .col + .col h2 + h2 {
+
+	margin: 0 0 40px;
+
+}
+
+.page-id-27 .content .col + .col h3 {
+
+	margin: 0 0 10px;
+
+}
+
+/* ---------- END Retreats ---------- */
+
+
+
+/* 4. Contact -------------------- */
+
+.page-id-21 .content {
+
+	width: 100%;
+
+}
+
+.wpcf7 div {
+
+	color: #cd303a;
+	display: block;
+	font-size: 14px;
+
+}
+
+.wpcf7 input,
+.wpcf7 textarea {
+
+	display: block;
+	border: 1px solid #a9abae;
+	height: 15px;
+	font-size: 14px;
+	color: #3a3a3c;
+	padding: 10px;
+	margin: 10px 0;
+	width: 758px;
+
+}
+
+.wpcf7 textarea {
+
+	height: 185px;
+	margin-bottom: 30px;
+
+}
+
+.wpcf7 div.name,
+.wpcf7 div.email {
+
+	display: inline-block;
+	vertical-align: top;
+	width: 380px;
+
+}
+
+.wpcf7 div.name {
+
+	margin-right: 15px;
+
+}
+
+.wpcf7 div.name input,
+.wpcf7 div.email input {
+
+	width: 358px;
+
+}
+
+.wpcf7 [type="submit"] {
+
+	display: block;
+	width: 105px;
+	height: 39px;
+	margin: 0 auto;
+	padding: 0;
+	text-indent: -9999px;
+	background: url(../images/btn-submit.png);
+	border: none;
+
+}
+
+.ajax-loader {
+
+	display: none;
+}
+
+/* ---------- END Contact ---------- */
+
+
+
+/* 5. Essential Anatomy E-course
+ * & Art of Sequencing E-course -------------------- */
+
+.page-id-31 h2,
+.page-id-33 h2 {
+
+	text-transform: uppercase;
+	color: #3a3a3c;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 40px 0 20px;
+
+
+}
+
+.page-id-31 h3,
+.page-id-33 h3 {
+
+	color: #cc303a;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 10px;
+
+}
+
+.page-id-31 .content ul,
+.page-id-33 .content ul {
+
+	color: #3a3a3c;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0 0 20px 55px;
+
+}
+
+.page-id-31 .content li,
+.page-id-33 .content li {
+
+	margin: 0 0 10px;
+
+}
+
+.page-id-31 a.register,
+.page-id-33 a.register {
+
+	margin: 40px auto 0;
+
+}
+
+/* ---------- END Essential Anatomy E-course
+   & Art of Sequencing E-course ---------- */
+
+
+
+/* 6. Articles -------------------- */
+
+.page-id-35 .content {
+
+	width: 100%;
+
+}
+
+.page-id-35 .col {
+
+	width: 230px;
+
+}
+
+.page-id-35 .col + .col {
+
+	width: 520px;
+	float: right;
+
+}
+
+.page-id-35 .col.sticky {
+
+	position: fixed;
+	top: 35px;
+
+}
+
+.page-id-35 h2 {
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #cd303a;
+	font-size: 16px;
+	line-height: 20px;
+
+}
+
+.page-id-35 h3 {
+
+	font-weight: lighter;
+	font-size: 20px;
+	color: #3a3b3c;
+	margin: 50px 0 40px 185px;
+
+}
+
+.page-id-35 .col + .col h3:first-child {
+
+	margin-top: 0;
+
+}
+
+.page-id-35 ul.categories {
+
+	list-style: none;
+	font-size: 22px;
+	font-weight: lighter;
+	line-height: 40px;
+
+}
+
+.page-id-35 .content .categories a {
+
+	color: #3a3b3c;
+
+}
+
+.page-id-35 .content .categories a:hover,
+.page-id-35 .content .categories a[data-selected='selected'] {
+
+	color: #cd303a;
+
+}
+
+.page-id-35 .mediabox:before,
+.page-id-35 .mediabox:after {
+	
+	content: " ";
+	display: table;
+
+}
+
+.page-id-35 .mediabox:after {
+
+	clear: both;
+
+}
+
+.page-id-35 .mediabox .col {
+
+	width: 150px;
+
+}
+
+.page-id-35 .mediabox .col + .col {
+
+	width: 335px;
+
+}
+
+.page-id-35 a.download {
+
+	margin: 0 0 50px;
+
+}
+
+.page-id-35 p em {
+
+	display: block;
+	margin-top: -20px;
+
+}
+
+/* ---------- END Articles ---------- */
+
+
+
+/* 7. Press -------------------- */
+
+.page-id-37 .content {
+
+	width: 100%;
+
+}
+
+.page-id-37 .content > .col {
+
+	width: 230px;
+
+}
+
+.page-id-37 .content > .col + .col {
+
+	width: 520px;
+
+}
+
+.page-id-37 .content .mediabox .col + .col {
+
+	width: 335px;
+
+}
+
+.page-id-37 h2 {
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #cd303a;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 15px;
+
+}
+
+/* ---------- END Press ---------- */
+
+
+
+/* 8. Schedule -------------------- */
+
+.page-id-13 .content {
+
+	max-width: 780px;
+	margin: 35px 0 40px 30px;
+
+}
+
+/* plugin styles - these should be entered into the admin panel */
+
+.tablepress thead th {
+	background-color: #cdcdcd;
+}
+
+.dataTables_wrapper .sorting:hover {
+	background-color: #cc303a;
+}
+
+/* ---------- END Schedule ---------- */
+
+
+
+/* 9. 200 Hr Training -------------------- */
+
+.page-id-115 .content {
+
+	max-width: 800px;
+	width: 100%;
+
+}
+
+.page-id-115 .content .col {
+
+	max-width: 320px;
+	width: 100%;
+
+}
+
+.page-id-115 .content .col .bluebox {
+
+	margin-top: 0;
+
+}
+
+.page-id-115 .content .col + .col .bluebox {
+
+	margin-top: 20px;
+
+}
+
+.page-id-115 .content .col + .col {
+
+	max-width: 445px;
+
+}
+
+.page-id-115 h3 {
+
+	color: #cc303a;
+	font-size: 16px;
+	margin: 10px 0 10px;
+
+}
+
+.page-id-115 .content ul {
+
+	color: #3a3a3c;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0 0 15px 17px;
+
+}
+
+/* ---------- END 200hr Training ---------- */
+
+
+
+/* 10. Teacher Training Incentives -------------------- */
+
+.page-id-124 .content {
+
+	width: 100%;
+
+}
+
+.page-id-124 h3 {
+
+	color: #cc303a;
+	font-size: 16px;
+	margin: 10px 0 10px;
+
+}
+
+/* ---------- END Teacher Training Incentives ---------- */
+
+
+
+/* 11. Yoga Poses (Blog) -------------------- */
+
+.comment-list {
+
+	margin: 0 0 0 25px;
+
+}
+
+.comment {
+
+	margin: 0 0 25px;
+}
+
+.comment,
+.comment a,
+.comment p {
+
+	color: #878787;
+
+}
+
+.comments-title {
+
+	margin: 30px 0 0;
+}
+
+.comments-title,
+.comment-reply-title {
+
+	color: #bbb;
+	font-size: 24px;
+}
+
+.comment-reply-title { 
+
+	margin: 40px 0 27px;
+
+}
+
+.reply a {
+
+	text-decoration: underline;
+}
+
+.reply a:hover {
+
+	text-decoration: none;
+}
+
+#cancel-comment-reply-link {
+
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+.odd,
+.even {
+
+	margin: 30px 0 0 0;
+}
+
+.children {
+
+	border: 1px solid #ccc;
+	margin: 20px;
+	padding: 0 0 30px 40px;
+}
+
+.comment-form-comment textarea {
+
+	display: block;
+	border: 1px solid #ccc;
+}
+
+.comment-respond label {
+
+	color: #878787;
+}
+
+.comment-respond input,
+.comment-respond textarea {
+
+	height: 15px;
+	width: 385px;
+	padding: 10px;
+	margin: 0 0 10px;
+	border: 1px solid #a9abae;
+	font-size: 14px;
+	color: #3a3a3c;
+
+}
+
+.comment-respond textarea {
+
+	height: 150px;
+
+}
+
+.comment-respond p {
+
+	margin: 0;
+}
+
+.comment-respond input#submit {
+
+	margin: 20px 0 0;
+	padding: 0;
+	border: none;
+	width: 82px;
+	height: 31px;
+	text-indent: -9999px;
+	background: url(../images/btn-submit-comment.png);
+
+} 
+
+.wp_rp_wrap .related_post_title {
+
+	color: #6a6a6a;
+}
+
+.wp_rp_content {
+
+	margin: 28px 0 0;
+}
+
+.blog a.comments-link {
+
+	color: #bbb;
+	text-decoration: none;
+	font-size: 24px;
+	display: block;
+	margin: 30px 0 0;
+}
+
+.blog a.comments-link:hover {
+
+	color: #cc303a;
+
+}
+
+.blog a.add-comment {
+
+	font-size: 12px;
+	text-decoration: underline;
+	margin-top: 20px;
+	display: block;
+
+}
+
+#commentform label {
+
+	display: none;
+
+}
+
+/* ---------- END Yoga Poses (Blog) ---------- */
+
+
+
+/* 11. Teacher Training -------------------- */
+
+.page-id-25 .content {
+
+	width: 100%;
+
+}
+
+/* ---------- END Teacher Training ---------- */
+
+
+
+/* ---------- Footer ----------*/
+
+.footer form div,
+.footer #mc_embed_signup {
+
+	display: inline;
+}

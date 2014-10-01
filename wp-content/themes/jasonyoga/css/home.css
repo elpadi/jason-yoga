@@ -1,0 +1,254 @@
+/*
+
+[TABLE OF CONTENTS]
+
+1. Stage
+2. Footer
+3. Media Queries
+
+*/
+
+
+
+/* 1. Stage -------------------- */
+
+.stageimg {
+
+	position: relative;
+	margin-bottom: 10px;
+	width: 100%;
+
+}
+
+.stageimg ul {
+
+	position: relative;
+	list-style: none;
+
+}
+
+.stageimg li {
+
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	z-index: 5;
+
+	-webkit-transition: all 0.5s ease;                  
+    -moz-transition: all 0.5s ease;                 
+    -o-transition: all 0.5s ease;   
+    -ms-transition: all 0.5s ease;          
+    transition: all 0.5s ease;
+
+}
+
+.stageimg li[data-active="active"] {
+
+	position: relative;
+	z-index: 10;
+
+}
+
+.stageimg li.fadeIn {
+
+	opacity: 1;
+
+}
+
+.stageimg li.fadeOut {
+
+	opacity: 0;
+
+}
+
+.stageimg img {
+
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: block;
+
+}
+
+.overlay {
+
+	color: #fff;
+	padding: 27px 0 0 96px;
+	height: 123px;
+	position: absolute;
+	bottom: 0; right: 0; left: 0;
+	background: rgba(101,98,97,0.7);
+	background: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(101,98,97,0.7)), color-stop(0.4, rgba(101,98,97,0.7)), to(rgba(101,98,97,0)));
+	background: -webkit-linear-gradient(left, rgba(101,98,97,0.7) 0%, rgba(101,98,97,0.7) 40%, rgba(101,98,97,0) 100%);
+	background: -moz-linear-gradient(left, rgba(101,98,97,0.7) 0%, rgba(101,98,97,0.7) 40%, rgba(101,98,97,0) 100%);
+	background: -o-linear-gradient(left, rgba(101,98,97,0.7) 0%, rgba(101,98,97,0.7) 40%, rgba(101,98,97,0) 100%);
+	background: linear-gradient(left, rgba(101,98,97,0.7) 0%, rgba(101,98,97,0.7) 40%, rgba(101,98,97,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#656261', endColorstr='#656261', GradientType=1 );
+
+}
+
+.overlay h1,
+.overlay h2 {
+
+	text-align: left;
+
+}
+
+.overlay h1 {
+
+	font-size: 32px;
+	font-weight: normal;
+	font-family: DINWeb;
+
+}
+
+.overlay h2 {
+
+	font-size: 20px;
+	text-align: left;
+	margin: 5px 0 15px;
+	font-weight: normal;
+	font-family: DINWeb;
+
+}
+
+.overlay a {
+
+	display: inline-block;
+	color: #fff;
+	font-family: DINWeb;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #cd313a;
+	padding: 5px 10px 2px 5px;
+
+}
+
+/* ---------- End Stage ---------- */
+
+
+
+/* 2. Footer -------------------- */
+
+.homefooter {
+
+	margin-top: 9px;
+
+}
+
+.homefooter div {
+
+	float: left;
+	/* width: 314px; height: 230px; */
+
+}
+
+.homefooter.footer img {
+
+	padding: 0;
+
+}
+
+.homefooter .footer-left,
+.homefooter .footer-middle {
+
+	margin-right: 9px;
+
+}
+
+.homefooter .footer-right {
+
+	background-image: url(../images/footerright.jpg);
+	padding: 20px;
+	width: 274px; height: 190px;
+	text-align: center;
+
+}
+
+.footer-right h1,
+.footer-right h2 {
+
+	font-family: DINWeb, sans-serif;
+
+}
+
+.footer-right h1 {
+
+	color: #fff;
+	font-size: 20px;
+	margin: 9px 0 5px;
+	line-height: 30px;
+
+}
+
+.footer-right h2 {
+
+	color: #3B3A3D;
+	font-size: 14px;
+	margin: 12px 0 0;
+	line-height: 18px;
+
+}
+
+.footer .footer-right form {
+
+	margin: 15px 0 0 8px;
+	float: left;
+	padding: 0;
+
+}
+
+.footer .footer-right form input[type="email"],
+.footer .footer-right form input[type="text"] {
+
+	height: 36px; width: 195px;
+	padding: 0 0 0 6px;
+	font-size: 12pt;
+	border: none;
+	-webkit-box-shadow: inset 0px 22px 45px -28px rgba(122,122,122,1);
+	-moz-box-shadow: inset 0px 22px 45px -28px rgba(122,122,122,1);
+	box-shadow: inset 0px 22px 45px -28px rgba(122,122,122,1);
+
+}
+
+.footer .footer-right form input[type="text"] {
+
+	margin: 0 0 0 10px;
+
+}
+
+.homefooter form div {
+
+	display: inline-block;
+	text-align: left !important;
+
+}
+
+.home .footer .footer-right .clear {
+
+	width: 32px;
+	height: 32px;
+
+}
+
+.home .footer .mc-field-group {
+
+	width: 200px;
+}
+
+.homefooter .footer-icons {
+
+	display: none;
+
+}
+
+.footer-right img {
+
+	position: relative;
+	top: 68px; left: 15px;
+
+}
+
+/* ---------- END Footer ---------- */

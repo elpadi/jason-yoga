@@ -1,0 +1,395 @@
+/*
+Theme Name: Jason Yoga
+Theme URI: http://wordpress.org/themes/twentyfourteen
+Author: Jackson Solutions Group
+Author URI: http://wordpress.org/
+Description: Custom Wordpress Theme for Jason Crandell.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: twentyfourteen 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+/*
+
+[TABLE OF CONTENTS]
+
+1. Reset
+2. Global
+3. Header
+4. Footer
+5. Media Queries
+6. Fonts
+
+[HOMEPAGE]
+
+File: css/home.css
+
+[GENERAL CONTENT]
+
+File: css/content.css
+
+*/
+
+
+
+/* 1. Reset -------------------- */
+
+html,body,h1,h2,h3,p,ul,ol,li,img,figure,form,
+header,nav,section,article,aside,footer {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+html, body {
+
+	width: 100%;
+	position: relative;
+
+}
+
+html {
+
+	-webkit-text-size-adjust: none;
+
+}
+
+body{
+
+	max-width: 960px;
+	display: block;
+	margin: auto;
+	font-family: Helvetica, Aria, sans-serif;
+	background: #edf8f8;
+
+}
+
+article, aside, footer, header, nav, section, figure {
+
+	display: block;
+	position: relative;
+
+}
+
+img {
+
+	border: none;
+	display: block;
+
+}
+
+a {
+
+	cursor: pointer;
+	text-decoration: none;
+
+}
+
+/* --------- END Reset ---------*/
+
+
+
+/* 2. Global ------------------ */
+
+.backgroundwrapper {
+
+	background-color: #fff;
+	overflow: auto;
+	width: 100%;
+	
+}
+
+h1,
+h2 {
+
+	font-family: DINWeb-Bold, sans-serif;
+
+}
+
+.aligncenter {
+
+	text-align: center;
+
+}
+
+img.aligncenter {
+
+	margin: 0 auto;
+
+}
+
+.ir {
+
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	border: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+/* --------- END Global ---------*/
+
+
+
+/* 3. Header ------------------ */
+
+.header {
+
+	height: auto;
+	background-color: white;
+	position: relative;
+	display: block;
+
+}
+
+.logo {
+
+	margin: 44px 0  0 84px;
+	float: left;
+
+}
+
+.icons {
+
+	height: 155px;
+	width: 234px;
+	padding: 23px 0 0 79px;
+	background-image: url(images/gridbg.png);
+	float: right;
+
+}
+
+.icons img {
+
+	padding: 5px;
+	float: left;
+
+}
+
+nav {
+
+	height: 51px;
+	font-size: 16px;
+	text-transform: uppercase;
+	background-color: #E6E7E8;
+	font-family: DINWeb, sans-serif;
+	clear: both;
+
+}
+
+nav a {
+
+	color: #3A3A3C;
+
+}
+
+nav ul {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+nav li {
+
+	position: relative;
+	display: inline-block;
+	padding:19px 18px 17px 18px;
+
+}
+
+nav li+li {
+
+	border-left: 1px white solid;
+
+}
+
+nav .sub-menu {
+
+	display: none;
+	position: absolute;
+	top: 51px;
+	left: 0;
+	padding: 5px;
+	width: auto; min-width: 100%;
+	text-align: left;
+
+}
+
+nav li:hover .sub-menu {
+
+	display: block;
+	z-index: 100;
+	background: #A2DAD4;
+	border-bottom: 1px #3A3A3C solid;
+	text-transform: none;
+
+}
+
+nav .sub-menu li {
+
+	display: block;
+	padding: 5px;
+	margin: 0;
+	border-left: none;
+	white-space: nowrap;
+
+}
+
+nav li a:hover,
+nav li.current_page_parent > a,
+nav li.current-menu-item > a {
+
+	color: #ce2a3a;
+
+}
+
+/* ---------- End Header ----------*/
+
+
+
+/* 4. Footer -------------------- */
+
+.footer form input {
+
+	color: #6D6E71;
+
+}
+
+.footer .copyright {
+
+	font-size: 11px;
+	color: #696A6D;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	height: auto;
+	width: 100%;
+	font-family: Helvetica, sans-serif;
+
+}
+
+.footer .copyright a {
+
+	color: #696A6D;
+
+}
+
+.copyright br {
+
+	display: none;
+
+}
+
+.footer-icons {
+
+	display: inline;
+	margin: 0 0 0 50px;
+
+}
+
+.formwrapper {
+
+	background-color: #cc303a;
+	height: auto;
+
+}
+
+.footer p {
+
+	color: #FFFFFF;
+	display: inline;
+
+}
+
+.footer form {
+
+	display: inline;
+	padding-left: 10px;
+
+}
+
+.footer form input {
+
+	height: 25px;
+	width: 167px;
+	margin: 11px 5px 15px 0;
+	border: none;
+
+}
+
+.footer form input[type="submit"] {
+
+	background: url(images/gobutton.png) no-repeat;
+	border: none;
+	height: 32px;
+	width: 32px;
+	padding: 10px;
+	cursor: pointer;
+
+}
+
+.footer img {
+
+	display: inline;
+	vertical-align: middle;
+	padding: 0 0 4px 10px;
+
+}
+
+/* ---------- END Footer ---------- */
+
+.wp-video-shortcode {
+
+	max-width: 100%;
+
+}
+
+
+
+/* 7. Table Press Overrides -------------------- */
+
+.dataTables_wrapper .sorting div:after,
+.dataTables_wrapper .sorting_asc div:after,
+.dataTables_wrapper .sorting_desc div:after {
+
+	content: "" !important;
+
+}
+
+/* ---------- END Table Press Overrides ---------- */
+
+
+
+/* 6. Fonts -------------------- */
+
+@font-face {
+    font-family: "DINWeb";
+    src: url('fonts/DINWeb.eot');
+    src: url('fonts/DINWeb.eot?#iefix') format('embedded-opentype'),
+    	url('fonts/DINWeb.woff') format('woff'),
+    	url('fonts/DINWeb.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DINWeb-Bold";
+    src: url('fonts/DINWeb-Bold.eot');
+    src: url('fonts/DINWeb-Bold.eot?#iefix') format('embedded-opentype'),
+    	url('fonts/DINWeb-Bold.woff') format('woff'),
+    	url('fonts/DINWeb-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ---------- END Fonts ---------- */
