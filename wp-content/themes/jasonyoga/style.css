@@ -162,6 +162,18 @@ img.aligncenter {
 
 }
 
+.gray-text {
+	color:#AAA;
+}
+.dark-text.gray-text {
+	color:#6D6E71;
+}
+.light-text.gray-text {
+	color:#BBB;
+}
+.red-text {
+	color:#CC303A;
+}
 .solid-red {
 	background-color:#CC303A;
 	color:white;

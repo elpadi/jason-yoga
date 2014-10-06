@@ -29,8 +29,11 @@ get_header(); ?>
 			// Start the Loop.
 			while ( have_posts() ) : the_post(); ?>
 
-				<h1><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h1>
-				
+				<header>
+					<p class="metadata gray-text"><?php the_date(); ?> by <span class="red-text"><?php the_author(); ?></span></p>
+					<h1><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h1>
+				</header>
+
 				<?php the_content(); ?>
 
 				<?php the_tags( '<footer class="entry-meta" style="padding: 40px 0 0; color: #cc303a;"><span class="tag-links">', ', ', '</span></footer>' ); ?>
