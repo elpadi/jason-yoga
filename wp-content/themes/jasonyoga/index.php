@@ -60,7 +60,7 @@ get_header(); ?>
 			<div class="previous">
 				<?php next_posts_link( 'Previous', $query_press->max_num_pages ); ?>
 			</div>
-    	</div>
+		</div>
 
 	</div>
 
