@@ -61,6 +61,8 @@
 	
 	</div>
 
+	<div id="header-newsletter-box" class="newsletter-box solid-red"><?php include(__DIR__.'/inc/newsletter-form.php'); ?></div>
+
 	<nav class="aligncenter">
 
 		<?php

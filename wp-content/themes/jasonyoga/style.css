@@ -137,6 +137,36 @@ img.aligncenter {
 
 }
 
+.mc_embed_signup input {
+
+	color: #6D6E71;
+	height: 25px;
+	width: 167px;
+	margin: 11px 5px 15px 0;
+	border: none;
+
+}
+
+.mc_embed_signup .text-input {
+	padding-left:10px;
+}
+
+.mc_embed_signup .mc-embedded-subscribe {
+
+	background: url(images/gobutton.png) no-repeat;
+	border: none;
+	height: 32px;
+	width: 32px;
+	padding: 10px;
+	cursor: pointer;
+
+}
+
+.solid-red {
+	background-color:#CC303A;
+	color:white;
+}
+
 /* --------- END Global ---------*/
 
 
@@ -167,6 +197,10 @@ img.aligncenter {
 	background-image: url(images/gridbg.png);
 	float: right;
 
+}
+
+.icons a {
+	visibility:hidden;
 }
 
 .icons img {
@@ -254,17 +288,25 @@ nav li.current-menu-item > a {
 
 }
 
+#header-newsletter-box {
+	font-size:0.8em;
+	position:absolute;
+	bottom:71px;
+	right:0;
+	padding:1em 3em 0;
+}
+#header-newsletter-box .mc_embed_signup input {
+	margin-top:5px;
+}
+#header-newsletter-box > p::after {
+	content:':';
+}
+
 /* ---------- End Header ----------*/
 
 
 
 /* 4. Footer -------------------- */
-
-.footer form input {
-
-	color: #6D6E71;
-
-}
 
 .footer .copyright {
 
@@ -318,25 +360,6 @@ nav li.current-menu-item > a {
 
 }
 
-.footer form input {
-
-	height: 25px;
-	width: 167px;
-	margin: 11px 5px 15px 0;
-	border: none;
-
-}
-
-.footer form input[type="submit"] {
-
-	background: url(images/gobutton.png) no-repeat;
-	border: none;
-	height: 32px;
-	width: 32px;
-	padding: 10px;
-	cursor: pointer;
-
-}
 
 .footer img {
 

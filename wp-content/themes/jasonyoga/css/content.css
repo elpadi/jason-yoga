@@ -966,7 +966,7 @@ hr + hr {
 /* ---------- Footer ----------*/
 
 .footer form div,
-.footer #mc_embed_signup {
+.footer .mc_embed_signup {
 
 	display: inline;
 }
