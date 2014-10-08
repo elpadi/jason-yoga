@@ -23,8 +23,6 @@
 .contentwrapper {
 
 	margin: 35px auto 0 auto;
-	width: 100%;
-	max-width: 835px;
 
 }
 
@@ -50,10 +48,14 @@
 
 .content {
 
-	width: 90%;
-	max-width: 780px;
-	margin: 35px 0 40px 10px;
+	float:left;
+	width: 53.54%;
 
+}
+#main-sidebar {
+
+	float:right;
+	width:29.58%;
 }
 
 h1,
@@ -80,6 +82,7 @@ h2 {
 	color: #3a3b3c;
 	line-height: 20px;
 	margin: 0 0 20px;
+	text-align:justify;
 
 }
 
@@ -91,6 +94,11 @@ h2 {
 
 .content .metadata {
 	margin-bottom:3%;
+}
+
+.content img {
+	max-width:100%;
+	height:auto;
 }
 
 .col {
