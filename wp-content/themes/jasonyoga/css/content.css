@@ -23,6 +23,7 @@
 .contentwrapper {
 
 	margin: 35px auto 0 auto;
+	overflow:auto;
 
 }
 
@@ -65,13 +66,32 @@ h2 {
 	font-weight: normal;
 	color: #cc303a;
 	font-family: DINWeb;
-	margin: 0 0 25px;
+	margin: 0;
 
 }
 
 .content > p + h1 {
 
 	clear: both;
+
+}
+
+.content > hr {
+	
+	margin-top:7.78%;
+
+}
+
+.content > hr + hr {
+	
+	margin-bottom:7.78%;
+
+}
+
+.content h1,
+.content h2 {
+	
+	margin-bottom:4.86%;
 
 }
 
@@ -99,6 +119,86 @@ h2 {
 .content img {
 	max-width:100%;
 	height:auto;
+}
+
+#main-sidebar > hr {
+
+	margin-top:14.1%;
+
+}
+
+#main-sidebar > section,
+#main-sidebar > hr + hr {
+
+	margin-bottom:14.1%;
+
+}
+
+#main-sidebar > section:nth-of-type(1) {
+
+	margin-top:-7%;
+	margin-bottom:10%;
+
+}
+
+#main-sidebar > section:nth-of-type(3) {
+
+	margin-bottom:-7%;
+
+}
+
+#main-sidebar h2 {
+	
+	margin-bottom:4.86%;
+
+}
+
+#main-sidebar ul {
+	
+	line-height:1.75;
+	margin-left:22px;
+
+}
+
+#main-sidebar .search-form {
+
+	position:relative;
+
+}
+
+#main-sidebar .search-form label {
+
+	display:block;
+
+}
+
+#main-sidebar .search-form label input {
+
+	width:100%;
+
+}
+
+#main-sidebar .search-form span {
+
+	display:none;
+
+}
+
+#main-sidebar .search-submit {
+
+	position:absolute;
+	top:0;
+	right:0;
+	width:20px;
+	height:20px;
+	overflow:hidden;
+	text-indent:100%;
+	padding:0;
+	margin:0;
+	border-style:none;
+	outline-style:none;
+	background-color:red;
+
 }
 
 .col {
@@ -272,12 +372,12 @@ hr {
 	background: #cc303a;
 	height: 1px;
 	border: 0;
-	margin: 40px 0 0;
+	margin:0;
 }
 
 hr + hr {
 
-	margin:7px 0 3%;
+	margin-top:7px !important;
 
 }
 

@@ -7,23 +7,23 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-<div id="secondary">
+<aside id="main-sidebar">
 	<header>
 		<img src="/wp-content/uploads/img-jason.jpg" alt="">
-		<h3>About Jason</h3>
+		<h2>About Jason</h2>
 		<?php echo get_bloginfo( 'description', 'display' ); ?>
 	</header>
 	<hr>
 	<hr>
 	<section><?php get_search_form(); ?></section>
 	<section>
-		<h3>Categories</h3>
-		<?php wp_list_cats(); ?>
+		<h2>Categories</h2>
+		<ul><?php wp_list_cats(); ?></ul>
 	</section>
 	<section>
-		<h3>Archive</h3>
-		<?php wp_get_archives('type=monthly'); ?>
+		<h2>Archive</h2>
+		<ul><?php wp_get_archives('type=monthly'); ?></ul>
 	</section>
 	<hr>
 	<hr>
-</div><!-- #secondary -->
+</aside>
