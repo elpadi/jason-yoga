@@ -22,9 +22,9 @@
 
 .contentwrapper {
 
-	margin: 35px auto 0 85px;
+	margin: 35px auto 0 9.48%;
 	overflow:auto;
-	width:875px;
+	width:90.52%;
 
 }
 
@@ -66,6 +66,7 @@
 #main-sidebar > header img {
 
 	margin-bottom: 10%;
+	max-width:100%;
 
 }
 
