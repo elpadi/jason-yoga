@@ -22,8 +22,9 @@
 
 .contentwrapper {
 
-	margin: 35px auto 0 auto;
+	margin: 35px auto 0 85px;
 	overflow:auto;
+	width:875px;
 
 }
 
@@ -50,13 +51,22 @@
 .content {
 
 	float:left;
-	width: 53.54%;
+	width: 59%;
 
 }
+
 #main-sidebar {
 
 	float:right;
-	width:29.58%;
+	width:32%;
+	margin-right:24px;
+
+}
+
+#main-sidebar > header img {
+
+	margin-bottom: 10%;
+
 }
 
 h1,
@@ -157,6 +167,14 @@ h2 {
 	
 	line-height:1.75;
 	margin-left:22px;
+	text-transform:capitalize;
+	color:#888;
+
+}
+
+#main-sidebar a {
+	
+	color:#888;
 
 }
 
@@ -175,6 +193,11 @@ h2 {
 #main-sidebar .search-form label input {
 
 	width:100%;
+	color:#AAA;
+	font-size:1em;
+	line-height:1.3;
+	padding:5px 3px 3px;
+	border:1px solid #CCC;
 
 }
 
@@ -188,13 +211,14 @@ h2 {
 
 	position:absolute;
 	top:0;
+	bottom:0;
 	right:0;
 	width:20px;
 	height:20px;
 	overflow:hidden;
 	text-indent:100%;
 	padding:0;
-	margin:0;
+	margin:auto 8px;
 	border-style:none;
 	outline-style:none;
 	background-color:red;
