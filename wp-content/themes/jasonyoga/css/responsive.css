@@ -52,8 +52,10 @@
 
 	.content {
 
+		/*
 		width: 93.41317365%;
 		margin: 28px 0 32px 8px;
+		*/
 
 	}
 
@@ -281,6 +283,13 @@
 		margin-left:0;
 	}
 
+	#header-newsletter-box {
+		
+		top:77px;
+		bottom:auto;
+
+	}
+
 	nav {
 	
 		height: auto;
@@ -374,6 +383,12 @@
 
 	}
 
+	#header-newsletter-box {
+
+		display:none;
+
+	}
+
 	.icons {
 	
 		display: none;
@@ -431,9 +446,16 @@
 
 	.content {
 
+		float:none;
 		margin-left: auto;
 		margin-right: auto;
 		width:100%;
+
+	}
+
+	.content > hr:nth-last-of-type(1) {
+
+		margin-bottom:5%;
 
 	}
 

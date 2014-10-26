@@ -52,6 +52,7 @@
 
 	float:left;
 	width: 59%;
+	padding-bottom:10%;
 
 }
 
@@ -67,6 +68,12 @@
 
 	margin-bottom: 10%;
 	max-width:100%;
+
+}
+
+#main-sidebar > section {
+
+	font-family:DINWeb,Arial,sans-serif;
 
 }
 
@@ -166,8 +173,9 @@ h2 {
 
 #main-sidebar ul {
 	
+	font-size:1.1em;
 	line-height:1.75;
-	margin-left:22px;
+	margin-left:19px;
 	text-transform:capitalize;
 	color:#888;
 
@@ -195,9 +203,9 @@ h2 {
 
 	width:100%;
 	color:#AAA;
-	font-size:1em;
-	line-height:1.3;
-	padding:5px 3px 3px;
+	font-size:0.9em;
+	line-height:1.65;
+	padding:5px 6px 3px;
 	border:1px solid #CCC;
 
 }
@@ -214,15 +222,16 @@ h2 {
 	top:0;
 	bottom:0;
 	right:0;
-	width:20px;
-	height:20px;
+	width:18px;
+	height:16px;
 	overflow:hidden;
 	text-indent:100%;
 	padding:0;
 	margin:auto 8px;
 	border-style:none;
 	outline-style:none;
-	background-color:red;
+	cursor:pointer;
+	background:transparent url(../images/search.png) center center no-repeat;
 
 }
 
@@ -411,28 +420,24 @@ hr + hr {
 	color: #cc303a;
 	text-transform: uppercase;
 	font-family: DINWeb-Bold;
-	padding: 35px 0 0;
 	font-size: 18px;
+	/*
 	height: 18px;
-	position: relative;
+	padding: 35px 0 0;
+	*/
+	overflow:hidden;
 
 }
 
 .pag .previous {
 
-	display: block;
-	position: absolute;
-	left: 0;
-	top: 35px;
+	float:left;
 
 }
 
 .pag .next {
 
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 35px;
+	float:right;
 
 }
 
