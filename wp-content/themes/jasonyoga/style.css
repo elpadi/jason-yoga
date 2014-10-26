@@ -191,20 +191,38 @@ img.aligncenter {
 	background-color: white;
 	position: relative;
 	display: block;
+	background-image: url(images/gridbg.png);
+	background-position:22px 24px;
 
 }
 
 .logo {
 
-	margin: 44px 0  0 8.75%;
-	float: left;
-	width:44.06%;
+	box-sizing:border-box;
+	position:absolute;
+	width:51%;
+	height:180px;
+	top:0;
+	left:4%;
+	background-color:white;
+
+}
+
+.logo > a {
+
+	position:absolute;
+	top:0;
+	bottom:0;
+	background:transparent url(images/logo.png) center center no-repeat;
+	background-size:100% auto;
+	margin:0 5%;
 
 }
 
 .logo img {
 
 	max-width:100%;
+	visibility:hidden;
 
 }
 
@@ -213,7 +231,6 @@ img.aligncenter {
 	height: 155px;
 	width: 234px;
 	padding: 23px 0 0 79px;
-	background-image: url(images/gridbg.png);
 	float: right;
 
 }

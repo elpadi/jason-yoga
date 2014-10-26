@@ -296,7 +296,6 @@
 		width: 100%;
 		padding: 0;
 		margin-bottom: 3px;
-		margin-top: 48px;
 	
 	}
 
@@ -358,6 +357,12 @@
 		background: #fff;
 	}
 
+	body > .header {
+
+		background-image:none;
+
+	}
+
 	.logo {
 	
 		position: static;
@@ -370,12 +375,6 @@
 	
 	}
 
-	.logo a {
-
-		display: block;
-
-	}
-
 	.logo a,
 	.logo a img {
 
@@ -383,9 +382,30 @@
 
 	}
 
+	.logo a {
+
+		display: block;
+		position:static;
+		margin:0;
+		background-image:none;
+
+	}
+
+	.logo img {
+
+		visibility:visible;
+
+	}
+
 	#header-newsletter-box {
 
 		display:none;
+
+	}
+
+	nav {
+		
+		margin-top:16px;
 
 	}
 
