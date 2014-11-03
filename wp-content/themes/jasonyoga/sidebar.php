@@ -7,23 +7,23 @@
  * @since Twenty Fourteen 1.0
  */
 ?>
-<div id="secondary">
-	<?php
-		$description = get_bloginfo( 'description', 'display' );
-		if ( ! empty ( $description ) ) :
-	?>
-	<h2 class="site-description"><?php echo esc_html( $description ); ?></h2>
-	<?php endif; ?>
-
-	<?php if ( has_nav_menu( 'secondary' ) ) : ?>
-	<nav role="navigation" class="navigation site-navigation secondary-navigation">
-		<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
-	</nav>
-	<?php endif; ?>
-
-	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-		<?php dynamic_sidebar( 'sidebar-1' ); ?>
-	</div><!-- #primary-sidebar -->
-	<?php endif; ?>
-</div><!-- #secondary -->
+<aside id="main-sidebar">
+	<header>
+		<img src="/wp-content/uploads/img-jason.jpg" alt="">
+		<h2>About Jason</h2>
+		<?php echo get_bloginfo( 'description', 'display' ); ?>
+	</header>
+	<hr>
+	<hr>
+	<section><?php get_search_form(); ?></section>
+	<section>
+		<h2>Categories</h2>
+		<ul><?php wp_list_cats(); ?></ul>
+	</section>
+	<section>
+		<h2>Archive</h2>
+		<ul><?php wp_get_archives('type=monthly'); ?></ul>
+	</section>
+	<hr>
+	<hr>
+</aside>

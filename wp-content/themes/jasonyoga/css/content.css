@@ -22,7 +22,9 @@
 
 .contentwrapper {
 
-	margin: 35px auto 0 auto;
+	margin: 35px auto 0 9.48%;
+	overflow:auto;
+	width:90.52%;
 
 }
 
@@ -49,13 +51,30 @@
 .content {
 
 	float:left;
-	width: 53.54%;
+	width: 59%;
+	padding-bottom:10%;
 
 }
+
 #main-sidebar {
 
 	float:right;
-	width:29.58%;
+	width:32%;
+	margin-right:24px;
+
+}
+
+#main-sidebar > header img {
+
+	margin-bottom: 10%;
+	max-width:100%;
+
+}
+
+#main-sidebar > section {
+
+	font-family:DINWeb,Arial,sans-serif;
+
 }
 
 h1,
@@ -65,13 +84,32 @@ h2 {
 	font-weight: normal;
 	color: #cc303a;
 	font-family: DINWeb;
-	margin: 0 0 25px;
+	margin: 0;
 
 }
 
 .content > p + h1 {
 
 	clear: both;
+
+}
+
+.content > hr {
+	
+	margin-top:7.78%;
+
+}
+
+.content > hr + hr {
+	
+	margin-bottom:7.78%;
+
+}
+
+.content h1,
+.content h2 {
+	
+	margin-bottom:4.86%;
 
 }
 
@@ -99,6 +137,102 @@ h2 {
 .content img {
 	max-width:100%;
 	height:auto;
+}
+
+#main-sidebar > hr {
+
+	margin-top:14.1%;
+
+}
+
+#main-sidebar > section,
+#main-sidebar > hr + hr {
+
+	margin-bottom:14.1%;
+
+}
+
+#main-sidebar > section:nth-of-type(1) {
+
+	margin-top:-7%;
+	margin-bottom:10%;
+
+}
+
+#main-sidebar > section:nth-of-type(3) {
+
+	margin-bottom:-7%;
+
+}
+
+#main-sidebar h2 {
+	
+	margin-bottom:4.86%;
+
+}
+
+#main-sidebar ul {
+	
+	font-size:1.1em;
+	line-height:1.75;
+	margin-left:19px;
+	text-transform:capitalize;
+	color:#888;
+
+}
+
+#main-sidebar a {
+	
+	color:#888;
+
+}
+
+#main-sidebar .search-form {
+
+	position:relative;
+
+}
+
+#main-sidebar .search-form label {
+
+	display:block;
+
+}
+
+#main-sidebar .search-form label input {
+
+	width:100%;
+	color:#AAA;
+	font-size:0.9em;
+	line-height:1.65;
+	padding:5px 6px 3px;
+	border:1px solid #CCC;
+
+}
+
+#main-sidebar .search-form span {
+
+	display:none;
+
+}
+
+#main-sidebar .search-submit {
+
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	width:18px;
+	height:16px;
+	overflow:hidden;
+	text-indent:100%;
+	padding:0;
+	margin:auto 8px;
+	border-style:none;
+	outline-style:none;
+	cursor:pointer;
+	background:transparent url(../images/search.png) center center no-repeat;
+
 }
 
 .col {
@@ -272,12 +406,12 @@ hr {
 	background: #cc303a;
 	height: 1px;
 	border: 0;
-	margin: 40px 0 0;
+	margin:0;
 }
 
 hr + hr {
 
-	margin:7px 0 3%;
+	margin-top:7px !important;
 
 }
 
@@ -286,28 +420,24 @@ hr + hr {
 	color: #cc303a;
 	text-transform: uppercase;
 	font-family: DINWeb-Bold;
-	padding: 35px 0 0;
 	font-size: 18px;
+	/*
 	height: 18px;
-	position: relative;
+	padding: 35px 0 0;
+	*/
+	overflow:hidden;
 
 }
 
 .pag .previous {
 
-	display: block;
-	position: absolute;
-	left: 0;
-	top: 35px;
+	float:left;
 
 }
 
 .pag .next {
 
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 35px;
+	float:right;
 
 }
 

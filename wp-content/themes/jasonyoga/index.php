@@ -41,7 +41,7 @@ get_header(); ?>
 
 					<a class="add-comment" href="<?php the_permalink(); ?>">Add Your Own</a>
 
-					<?php wp_related_posts()?>
+					<?php //wp_related_posts()?>
 
 					<hr>
 					<hr>
@@ -60,9 +60,7 @@ get_header(); ?>
 			</div>
 
 		</div>
-		<aside id="main-sidebar">
-			<?php echo 'sidebar';//sidebar ?>
-		</aside>
+		<?php get_sidebar(); ?>
 	</div>
 </div>
 
