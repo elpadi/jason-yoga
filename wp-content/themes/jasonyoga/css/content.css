@@ -172,12 +172,6 @@ h2 {
 
 }
 
-#main-sidebar > hr + hr {
-
-	margin-top:5px !important;
-
-}
-
 #main-sidebar > section,
 #main-sidebar > hr + hr {
 
@@ -240,6 +234,7 @@ h2 {
 	line-height:1.65;
 	padding:5px 6px 3px;
 	border:1px solid #CCC;
+	-webkit-appearance:none;
 
 }
 
@@ -258,7 +253,7 @@ h2 {
 	width:18px;
 	height:16px;
 	overflow:hidden;
-	text-indent:100%;
+	text-indent:200%;
 	padding:0;
 	margin:auto 8px;
 	border-style:none;
@@ -444,7 +439,7 @@ hr {
 
 hr + hr {
 
-	margin-top:7px !important;
+	margin-top:5px !important;
 
 }
 
