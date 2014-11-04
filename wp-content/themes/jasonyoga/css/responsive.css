@@ -367,11 +367,10 @@
 	
 		position: static;
 		text-align: center;
-		margin-top:44px;
-		margin-left: auto;
-		margin-right: auto;
+		margin:5.7% auto;
 		float: none;
 		width: 90%;
+		height:auto;
 	
 	}
 
@@ -394,6 +393,8 @@
 	.logo img {
 
 		visibility:visible;
+		max-width:423px;
+		margin:0 auto;
 
 	}
 

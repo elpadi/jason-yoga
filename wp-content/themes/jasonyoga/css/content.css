@@ -21,10 +21,19 @@
 /* 1. Content -------------------- */
 
 .contentwrapper {
+	
+	margin: 35px auto 0;
+	width:100%;
+	max-width:835px;
 
-	margin: 35px auto 0 9.48%;
+}
+
+.blog .contentwrapper {
+
+	margin-left:9.48%;
 	overflow:auto;
 	width:90.52%;
+	max-width:none;
 
 }
 
@@ -50,9 +59,19 @@
 
 .content {
 
+	width:90%;
+	max-width:780px;
+	margin:35px 0 40px 10px;
+
+}
+
+.blog .content {
+
 	float:left;
 	width: 59%;
+	max-width:none;
 	padding-bottom:10%;
+	margin:0;
 
 }
 
@@ -61,13 +80,20 @@
 	float:right;
 	width:32%;
 	margin-right:24px;
+	color:#3a3b3c;
+
+}
+
+#main-sidebar > header {
+
+	line-height:1.25;
 
 }
 
 #main-sidebar > header img {
 
 	margin-bottom: 10%;
-	max-width:100%;
+	max-width:230px;
 
 }
 
@@ -131,6 +157,7 @@ h2 {
 }
 
 .content .metadata {
+	font-family:DINWeb,sans-serif;
 	margin-bottom:3%;
 }
 
@@ -142,6 +169,12 @@ h2 {
 #main-sidebar > hr {
 
 	margin-top:14.1%;
+
+}
+
+#main-sidebar > hr + hr {
+
+	margin-top:5px !important;
 
 }
 

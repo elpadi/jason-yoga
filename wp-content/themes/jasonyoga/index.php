@@ -27,7 +27,7 @@ get_header(); ?>
 				while ( have_posts() ) : the_post(); ?>
 
 					<header>
-						<p class="metadata gray-text"><?php the_date(); ?> by <span class="red-text"><?php the_author(); ?></span></p>
+						<p class="metadata dark-text gray-text"><?php the_date(); ?> by <span class="red-text"><?php the_author(); ?></span></p>
 						<h1><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h1>
 					</header>
 
@@ -41,7 +41,7 @@ get_header(); ?>
 
 					<a class="add-comment" href="<?php the_permalink(); ?>">Add Your Own</a>
 
-					<?php //wp_related_posts()?>
+					<?php wp_related_posts()?>
 
 					<hr>
 					<hr>

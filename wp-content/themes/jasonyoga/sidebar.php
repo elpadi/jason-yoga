@@ -9,7 +9,7 @@
 ?>
 <aside id="main-sidebar">
 	<header>
-		<img src="/wp-content/uploads/img-jason.jpg" alt="">
+		<img src="<?php echo WP_CONTENT_URL; ?>/uploads/img-jason.jpg" alt="">
 		<h2>About Jason</h2>
 		<?php echo get_bloginfo( 'description', 'display' ); ?>
 	</header>

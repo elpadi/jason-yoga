@@ -331,6 +331,9 @@ nav li.current-menu-item > a {
 	right:0;
 	padding:1em 3em 0;
 }
+#header-newsletter-box > p {
+	font-family:DINWeb,sans-serif;
+}
 #header-newsletter-box .mc_embed_signup input {
 	margin-top:5px;
 }
