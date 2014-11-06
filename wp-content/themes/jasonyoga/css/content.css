@@ -135,11 +135,18 @@ h2 {
 .content h1,
 .content h2 {
 	
+	margin-bottom:3.2%;
+
+}
+
+.blog .content h1,
+.blog .content h2 {
+	
 	margin-bottom:4.86%;
 
 }
 
-.content > p {
+.content p {
 
 	font-family: Helvetica, sans-serif;
 	font-size: 14px;
@@ -719,6 +726,12 @@ hr + hr {
 
 }
 
+.page-id-35 .col > h1 {
+
+	margin-bottom:10.87%;
+
+}
+
 .page-id-35 .col + .col {
 
 	width: 520px;
@@ -740,6 +753,7 @@ hr + hr {
 	color: #cd303a;
 	font-size: 16px;
 	line-height: 20px;
+	margin-bottom:7.46%;
 
 }
 

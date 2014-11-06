@@ -276,7 +276,7 @@
 
 @media screen and (max-width: 828px) { 
 
-	.contentwrapper {
+	.blog .contentwrapper {
 		box-sizing:border-box;
 		width:100%;
 		padding-left:20px;
@@ -459,13 +459,13 @@
 	
 	}
 
-	.contentwrapper {
+	.blog .contentwrapper {
 
 		padding-right:20px;
 
 	}
 
-	.content {
+	.blog .content {
 
 		float:none;
 		margin-left: auto;

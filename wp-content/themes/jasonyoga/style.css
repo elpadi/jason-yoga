@@ -162,6 +162,12 @@ img.aligncenter {
 
 }
 
+ul.related_post li a {
+
+	clear:both;
+
+}
+
 .gray-text {
 	color:#AAA;
 }
