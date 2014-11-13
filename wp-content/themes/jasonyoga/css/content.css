@@ -1131,6 +1131,12 @@ hr + hr {
 
 }
 
+ul.related_post li:nth-child(4) {
+
+	display:none !important;
+
+}
+
 /* ---------- END Yoga Poses (Blog) ---------- */
 
 
