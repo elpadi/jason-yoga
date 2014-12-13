@@ -897,6 +897,21 @@ hr + hr {
 	background-color: #cc303a;
 }
 
+@media only screen and (max-width: 767px) {
+	.tablepress-responsive-phone {
+		position:relative;
+	}
+	.tablepress-responsive-phone::before {
+		content:'Swipe horizontally to view all >';
+		font-size:0.9em;
+		font-weight:bold;
+		color:#3295cc;
+		position:absolute;
+		top:0.5em;
+		left:0;
+	}
+}
+
 /* ---------- END Schedule ---------- */
 
 
