@@ -331,19 +331,21 @@ nav li.current-menu-item > a {
 }
 
 #header-newsletter-box {
-	font-size:0.8em;
 	position:absolute;
 	bottom:71px;
 	right:0;
+}
+.newsletter-box {
+	font-size:0.8em;
 	padding:1em 3em 0;
 }
-#header-newsletter-box > p {
-	font-family:DINWeb,sans-serif;
+.newsletter-box > p {
+	font-family:DINWeb,sans-serif !important;
 }
-#header-newsletter-box .mc_embed_signup input {
+.newsletter-box .mc_embed_signup input {
 	margin-top:5px;
 }
-#header-newsletter-box > p::after {
+.newsletter-box > p::after {
 	content:':';
 }
 

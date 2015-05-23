@@ -993,6 +993,14 @@ hr + hr {
 
 /* 11. Yoga Poses (Blog) -------------------- */
 
+div.content .newsletter-box {
+	margin-top:30px;
+}
+div.content .newsletter-box p {
+	color:white;
+	margin-bottom:0;
+}
+
 .comment-list {
 
 	margin: 0 0 0 25px;
