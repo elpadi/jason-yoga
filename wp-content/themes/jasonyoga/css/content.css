@@ -28,7 +28,7 @@
 
 }
 
-.blog .contentwrapper {
+.two-column .contentwrapper {
 
 	margin-left:9.48%;
 	overflow:auto;
@@ -65,7 +65,7 @@
 
 }
 
-.blog .content {
+.two-column .content {
 
 	float:left;
 	width: 59%;
@@ -139,8 +139,8 @@ h2 {
 
 }
 
-.blog .content h1,
-.blog .content h2 {
+.two-column .content h1,
+.two-column .content h2 {
 	
 	margin-bottom:4.86%;
 
@@ -153,6 +153,11 @@ h2 {
 	color: #3a3b3c;
 	line-height: 20px;
 	margin: 0 0 20px;
+
+}
+
+.two-column .content p {
+
 	text-align:justify;
 
 }
@@ -302,8 +307,6 @@ img.alignleft {
 .bluebox h2,
 .bluebox h3 {
 
-	font-family: Helvetica, sans-serif;
-	font-weight: bold;
 	color: #3a3b3c;
 	margin: 0 0 20px;
 
@@ -887,16 +890,6 @@ hr + hr {
 
 }
 
-/* plugin styles - these should be entered into the admin panel */
-
-.tablepress thead th {
-	background-color: #cdcdcd;
-}
-
-.dataTables_wrapper .sorting:hover {
-	background-color: #cc303a;
-}
-
 @media only screen and (max-width: 767px) {
 	.tablepress-responsive-phone {
 		position:relative;
@@ -910,6 +903,16 @@ hr + hr {
 		top:0.5em;
 		left:0;
 	}
+}
+
+/* plugin styles - these should be entered into the admin panel */
+
+.tablepress thead th {
+	background-color: #cdcdcd;
+}
+
+.dataTables_wrapper .sorting:hover {
+	background-color: #cc303a;
 }
 
 /* ---------- END Schedule ---------- */
@@ -950,11 +953,26 @@ hr + hr {
 
 }
 
-.page-id-115 h3 {
+.page-id-115 h3,
+.page-id-589 h3,
+.page-id-1232 h3 {
 
 	color: #cc303a;
 	font-size: 16px;
 	margin: 10px 0 10px;
+
+}
+
+.page-id-115 h2,
+.page-id-589 h2,
+.page-id-1232 h2 {
+
+	text-transform: uppercase;
+	color: #3a3a3c;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 40px 0 20px;
+
 
 }
 
@@ -988,6 +1006,24 @@ hr + hr {
 }
 
 /* ---------- END Teacher Training Incentives ---------- */
+
+/* 10. 5-Day Intensives -------------------- */
+
+.page-id-734 .content {
+
+	width: 100%;
+
+}
+
+.page-id-734 h3 {
+
+	color: #cc303a;
+	font-size: 16px;
+	margin: 10px 0 10px;
+
+}
+
+/* ---------- END 5-Day Intensives ---------- */
 
 
 
@@ -1064,7 +1100,7 @@ div.content .newsletter-box p {
 
 	border: 1px solid #ccc;
 	margin: 20px;
-	padding: 0 0 30px 40px;
+	padding: 0 20px 30px 40px;
 }
 
 .comment-form-comment textarea {
@@ -1124,7 +1160,7 @@ div.content .newsletter-box p {
 	margin: 28px 0 0;
 }
 
-.blog a.comments-link {
+.two-column a.comments-link {
 
 	color: #bbb;
 	text-decoration: none;
@@ -1133,13 +1169,13 @@ div.content .newsletter-box p {
 	margin: 30px 0 0;
 }
 
-.blog a.comments-link:hover {
+.two-column a.comments-link:hover {
 
 	color: #cc303a;
 
 }
 
-.blog a.add-comment {
+.two-column a.add-comment {
 
 	font-size: 12px;
 	text-decoration: underline;
