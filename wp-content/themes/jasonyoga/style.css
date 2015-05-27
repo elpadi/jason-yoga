@@ -368,9 +368,6 @@ nav li.current-menu-item > a {
 .newsletter-box .mc_embed_signup input {
 	margin-top:5px;
 }
-.newsletter-box > p::after {
-	content:':';
-}
 
 /* ---------- End Header ----------*/
 

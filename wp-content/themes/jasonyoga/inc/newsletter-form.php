@@ -1,4 +1,4 @@
-<p>Join Jason in his upcoming events</p>
+<p>Sign up for Jason's newsletter!</p>
 <!-- Begin MailChimp Signup Form -->
 <div class="mc_embed_signup">
 	<form action="http://jasonyoga.us6.list-manage.com/subscribe/post?u=066944c3703953d1a7b9de19c&amp;id=19a7e31f47" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
