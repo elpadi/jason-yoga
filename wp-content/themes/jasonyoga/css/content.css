@@ -1031,10 +1031,23 @@ hr + hr {
 
 div.content .newsletter-box {
 	margin-top:30px;
+	padding:0.4em;
+	text-align:center;
+}
+div.content .newsletter-box h3 {
+	font-size:1.6em;
+	margin:0.6em;
 }
 div.content .newsletter-box p {
+	display:none;
 	color:white;
-	margin-bottom:0;
+	text-align:center;
+	font-size:15px;
+	line-height:18px;
+}
+div.content .newsletter-box .post-newsletter-message {
+	display:block;
+	margin-bottom:0.6em;
 }
 
 .comment-list {

@@ -36,7 +36,11 @@ get_header(); ?>
 					<?php the_tags( '<footer class="entry-meta" style="padding: 40px 0 0; color: #cc303a;"><span class="tag-links">', ', ', '</span></footer>' ); ?>
 
 					<?php if (($val = get_field('show_mailing_list_form')) && $val[0] === 'show'):  ?>
-					<div class="newsletter-box solid-red"><?php include(__DIR__.'/inc/newsletter-form.php'); ?></div>
+					<div class="newsletter-box solid-red">
+						<h3>Don&#39;t miss out!</h3>
+						<p class="post-newsletter-message">Sign up for Jason&#39;s newsletter to find out when our free sequences, teaching tips, and inspiring essays go live!</p>
+						<?php include(__DIR__.'/inc/newsletter-form.php'); ?>
+					</div>
 					<?php endif;  ?>
 
 					<?php
