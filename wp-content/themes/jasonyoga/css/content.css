@@ -283,7 +283,8 @@ h2 {
 
 }
 
-.col + .col {
+.col + .col,
+.col:nth-of-type(even) {
 
 	margin: 0 0 0 0;
 
@@ -516,7 +517,14 @@ hr + hr {
 
 }
 
-.page-id-27 .content .col + .col {
+.page-id-27 .content .col + p {
+
+	display:none;
+
+}
+
+.page-id-27 .content .col + .col,
+.page-id-27 .content .col:nth-of-type(even) {
 
 	width: 455px;
 
