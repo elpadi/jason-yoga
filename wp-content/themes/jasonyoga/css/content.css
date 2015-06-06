@@ -1039,6 +1039,7 @@ hr + hr {
 
 div.content .newsletter-box {
 	margin-top:30px;
+	margin-bottom:30px;
 	padding:0.4em;
 	text-align:center;
 }
@@ -1056,6 +1057,10 @@ div.content .newsletter-box p {
 div.content .newsletter-box .post-newsletter-message {
 	display:block;
 	margin-bottom:0.6em;
+}
+
+.add-comment {
+	font-size:1.1em;
 }
 
 .comment-list {
