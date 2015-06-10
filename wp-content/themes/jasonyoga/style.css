@@ -89,7 +89,7 @@ body{
 	max-width: 960px;
 	display: block;
 	margin: auto;
-	font-family: Helvetica, Aria, sans-serif;
+	font-family: DINWeb, Helvetica, Arial, sans-serif;
 	background: #edf8f8;
 
 }
@@ -383,7 +383,7 @@ nav li.current-menu-item > a {
 	padding-bottom: 20px;
 	height: auto;
 	width: 100%;
-	font-family: Helvetica, sans-serif;
+	font-family: DINWeb, Helvetica, sans-serif;
 
 }
 

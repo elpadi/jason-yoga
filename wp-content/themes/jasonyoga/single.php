@@ -9,39 +9,27 @@
 
 get_header(); ?>
 
-<div class="backgroundwrapper">
-
+<div class="backgroundwrapper two-column">
 	<div class="contentwrapper">
+		<div class="content">
 
-	<div class="content">
-
-			<?php
+			<?php if ( have_posts() ) : ?>
+				
+				<?php
 				// Start the Loop.
 				while ( have_posts() ) : the_post(); ?>
 
 					<?php get_template_part( 'content', get_post_format() ); ?>
-
 					<hr>
-
 					<hr>
-
-					<div class="pag">
-
-						<?php next_post_link( '%link', '<span class="next">' . _x( 'Next', 'twentytwelve' ) . '</span>' ); ?>
-
-						<?php previous_post_link( '%link', '<span class="previous">' . _x( 'Previous', 'twentytwelve' ) . '</span>' ); ?>
-
-					</div>
-
-					<?php if ( comments_open() || get_comments_number() ) {
-						comments_template();
-					} ?>
-
+					<?php if (comments_open() || get_comments_number()) comments_template(); ?>
 				<?php endwhile; ?>
-		</div>
-	</div>
 
+			<?php endif; ?>
+
+		</div>
+		<?php get_sidebar(); ?>
+	</div>
 </div>
 
-<?php
-get_footer();
+<?php get_footer(); ?>

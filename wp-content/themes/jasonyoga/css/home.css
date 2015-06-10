@@ -63,6 +63,10 @@
 
 }
 
+.stageimg a {
+	display:block;
+}
+
 .stageimg img {
 
 	position: relative;
@@ -114,7 +118,7 @@
 
 }
 
-.overlay a {
+.overlay span {
 
 	display: inline-block;
 	color: #fff;
@@ -177,8 +181,8 @@
 .footer-right h1 {
 
 	color: #fff;
-	font-size: 20px;
-	margin: 9px 0 5px;
+	font-size: 19px;
+	margin: 9px 0 13px;
 	line-height: 30px;
 
 }
@@ -192,10 +196,24 @@
 
 }
 
+.footer-right #mc_embed_signup {
+
+	position:relative;
+	float:none;
+	max-width:280px;
+
+}
+
+.footer-right #mc-embedded-subscribe {
+
+	position:absolute;
+	left:82%;
+	top:52px;
+
+}
+
 .footer .footer-right form {
 
-	margin: 15px 0 0 8px;
-	float: left;
 	padding: 0;
 
 }
@@ -203,8 +221,9 @@
 .footer .footer-right form input[type="email"],
 .footer .footer-right form input[type="text"] {
 
-	height: 36px; width: 195px;
-	padding: 0 0 0 6px;
+	height: 36px;
+	width: 100%;
+	text-indent: 6px;
 	font-size: 12pt;
 	border: none;
 	-webkit-box-shadow: inset 0px 22px 45px -28px rgba(122,122,122,1);
@@ -215,7 +234,6 @@
 
 .footer .footer-right form input[type="text"] {
 
-	margin: 0 0 0 10px;
 
 }
 
@@ -235,7 +253,11 @@
 
 .home .footer .mc-field-group {
 
-	width: 200px;
+	width:70%;
+	margin-left:8%;
+	margin-bottom:4%;
+	display:block;
+	float:none;
 }
 
 .homefooter .footer-icons {

@@ -17,7 +17,7 @@
 		<script id="slideshow-template" type="text/x-handlebars-template">
 			<ul>
 				{{#each slides}}
-					<li data-index="{{id}}">
+					<li data-index="{{id}}"><a href="{{href}}">
 						<img src="{{image}}">
 						<div class="overlay">
 							<h1>{{headline}}</h1>
@@ -26,9 +26,9 @@
 								<br>{{secondSubHeadline}}
 							{{/if}}
 							</h2>
-							<a href="{{href}}">{{buttonText}} &gt;</a>
+							<span>{{buttonText}} &gt;</span>
 						</div>
-					</li>
+					</li></a>
 				{{/each}}
 			</ul>
 		</script>

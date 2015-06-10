@@ -6,7 +6,7 @@ var data = {
 			"id": 0,
 			"headline": "Power + Precision + Mindfulness",
 			"firstSubHeadline": "500-HR Advanced Vinyasa Yoga Certification Program with Jason Crandell",
-			"secondSubHeadline": "Feb 15-27, April 4-16, July 4-16",
+			"secondSubHeadline": "2016: Feb 15-27, April 4-16, July 4-16" ,
 			"buttonText": "Register Today",
 			"href": "/?page_id=1232"
 		},
@@ -14,7 +14,7 @@ var data = {
 		{
 			"id": 1,
 			"headline": "Optimize Your Flow Practice",
-			"firstSubHeadline": "2014 Weekend Workshops",
+			"firstSubHeadline": "2015 Weekend Workshops",
 			"buttonText": "Find One Near You",
 			"href": "/?page_id=23"
 		},
