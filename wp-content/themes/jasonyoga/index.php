@@ -16,7 +16,7 @@
 
 get_header(); ?>
 
-<div class="backgroundwrapper">
+<div class="backgroundwrapper two-column">
 	<div class="contentwrapper">
 		<div class="content">
 
