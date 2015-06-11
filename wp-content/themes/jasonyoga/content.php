@@ -64,7 +64,7 @@
 
 	<?php the_tags( '<footer class="entry-meta" style="padding: 40px 0 0; color: #cc303a;"><span class="tag-links">', ', ', '</span></footer>' ); ?>
 
-	<?php if (($val = get_field('show_mailing_list_form')) && $val[0] === 'show'):  ?>
+	<?php if (is_single() && ($val = get_field('show_mailing_list_form')) && $val[0] === 'show'):  ?>
 	<div class="newsletter-box solid-red"><?php include(__DIR__.'/inc/newsletter-form.php'); ?></div>
 	<?php endif;  ?>
 </article><!-- #post-## -->

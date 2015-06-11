@@ -55,7 +55,17 @@ get_header(); ?>
 						 */
 						get_template_part( 'content', get_post_format() );
 
-					endwhile;
+						 comments_popup_link( 'No comments yet', '1 comment', '% comments', 'comments-link', 'Comments are off for this post');
+					?>
+
+					<a class="add-comment" href="<?php the_permalink(); ?>#respond">Add Your Own</a>
+
+					<?php wp_related_posts(); ?>
+
+					<hr>
+					<hr>
+
+				<?php endwhile;
 					// Previous/next page navigation.
 					twentyfourteen_paging_nav();
 

@@ -47,9 +47,9 @@ get_header(); ?>
 						 comments_popup_link( 'No comments yet', '1 comment', '% comments', 'comments-link', 'Comments are off for this post');
 					?>
 
-					<a class="add-comment" href="<?php the_permalink(); ?>">Add Your Own</a>
+					<a class="add-comment" href="<?php the_permalink(); ?>#respond">Add Your Own</a>
 
-					<?php //wp_related_posts()?>
+					<?php wp_related_posts()?>
 
 					<hr>
 					<hr>
