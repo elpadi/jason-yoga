@@ -1100,6 +1100,11 @@ div.content .newsletter-box .post-newsletter-message {
 
 }
 
+.comment-metadata {
+	font-size:0.8em;
+	margin:0.4em 0 1.3em;
+}
+
 .reply a {
 
 	text-decoration: underline;
