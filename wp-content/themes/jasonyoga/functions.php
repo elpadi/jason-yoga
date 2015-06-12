@@ -526,6 +526,10 @@ if ( ! class_exists( 'Featured_Content' ) && 'plugins.php' !== $GLOBALS['pagenow
 }
 
 
+add_filter( 'the_content_more_link', 'modify_read_more_link' );
+function modify_read_more_link($link) {
+	return preg_replace('/(<a.*>)(.*)(<\/a>)/', '$1Read More &gt; &gt;$3', $link);
+}
 
 /*
  * JSG SHORTCODES ------------------
