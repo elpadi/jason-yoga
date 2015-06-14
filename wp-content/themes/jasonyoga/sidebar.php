@@ -21,8 +21,12 @@
 		<ul><?php wp_list_cats(); ?></ul>
 	</section>
 	<section>
-		<h2>Archive</h2>
-		<ul><?php wp_get_archives('type=monthly'); ?></ul>
+		<h2>Most Popular</h2>
+		<ul>
+			<?php foreach (get_posts('orderby=comment_count&order=DESC') as $post): ?>
+			<li><a href="<?php echo get_permalink($post); ?>"><?php echo get_the_title($post); ?></a></li>
+			<?php endforeach; ?>
+		</ul>
 	</section>
 	<hr>
 	<hr>
