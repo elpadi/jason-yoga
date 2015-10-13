@@ -20,6 +20,38 @@
 
 /* 1. Content -------------------- */
 
+h1,
+h2,
+.page-id-115 h3,
+.page-id-589 h3,
+.page-id-1232 h3,
+.two-column h3,
+.two-column a.comments-link:hover,
+.pag,
+.content a,
+.bluebox .col h3,
+.bluebox .col a,
+.page-id-734 h3,
+.page-id-124 h3,
+.page-id-31 h3,
+.page-id-33 h3,
+.page-id-27 h3 {
+	color: #cc303a;
+}
+hr,
+.dataTables_wrapper .sorting:hover {
+	background-color: #cc303a;
+}
+#main-sidebar,
+.content p,
+.bluebox h2,
+.bluebox h3,
+.two-column .entry-content h2,
+.page-id-35 h3,
+.page-id-35 .content .categories a {
+	color:#3a3b3c;
+}
+
 .contentwrapper {
 	
 	margin: 35px auto 0;
@@ -80,7 +112,6 @@
 	float:right;
 	width:32%;
 	margin-right:24px;
-	color:#3a3b3c;
 
 }
 
@@ -108,7 +139,6 @@ h2 {
 
 	font-size: 27px;
 	font-weight: normal;
-	color: #cc303a;
 	font-family: DINWeb;
 	margin: 0;
 
@@ -150,7 +180,6 @@ h2 {
 
 	font-family: Helvetica, sans-serif;
 	font-size: 14px;
-	color: #3a3b3c;
 	line-height: 20px;
 	margin: 0 0 20px;
 
@@ -164,7 +193,6 @@ h2 {
 
 .content a {
 
-	color: #cc303a;
 
 }
 
@@ -308,7 +336,6 @@ img.alignleft {
 .bluebox h2,
 .bluebox h3 {
 
-	color: #3a3b3c;
 	margin: 0 0 20px;
 
 }
@@ -335,7 +362,6 @@ img.alignleft {
 
 .bluebox .col h3 {
 
-	color: #cc303a;
 	padding: 0;
 	margin: 0 0 20px;
 
@@ -351,7 +377,6 @@ img.alignleft {
 .bluebox .col a {
 
 	font-weight: bold;
-	color: #cc303a;
 
 }
 
@@ -442,7 +467,6 @@ a.readArticle {
 }
 
 hr {
-	background: #cc303a;
 	height: 1px;
 	border: 0;
 	margin:0;
@@ -456,7 +480,6 @@ hr + hr {
 
 .pag {
 
-	color: #cc303a;
 	text-transform: uppercase;
 	font-family: DINWeb-Bold;
 	font-size: 18px;
@@ -544,7 +567,6 @@ hr + hr {
 
 .page-id-27 h3 {
 
-	color: #cc303a;
 	font-size: 16px;
 	margin: 30px 0 10px;
 
@@ -677,18 +699,20 @@ hr + hr {
 .page-id-33 h2 {
 
 	text-transform: uppercase;
-	color: #3a3a3c;
 	font-size: 20px;
 	font-weight: normal;
 	margin: 40px 0 20px;
 
 
 }
+.page-id-31 h2,
+.page-id-33 h2 {
+	color: #3a3a3c;
+}
 
 .page-id-31 h3,
 .page-id-33 h3 {
 
-	color: #cc303a;
 	font-size: 14px;
 	font-weight: bold;
 	margin: 0 0 10px;
@@ -773,7 +797,6 @@ hr + hr {
 
 	font-weight: lighter;
 	font-size: 20px;
-	color: #3a3b3c;
 	margin: 50px 0 40px 185px;
 
 }
@@ -795,7 +818,6 @@ hr + hr {
 
 .page-id-35 .content .categories a {
 
-	color: #3a3b3c;
 
 }
 
@@ -921,7 +943,6 @@ hr + hr {
 }
 
 .dataTables_wrapper .sorting:hover {
-	background-color: #cc303a;
 }
 
 /* ---------- END Schedule ---------- */
@@ -967,7 +988,6 @@ hr + hr {
 .page-id-589 h3,
 .page-id-1232 h3 {
 
-	color: #cc303a;
 	font-size: 16px;
 	margin: 10px 0 8px;
 
@@ -1009,7 +1029,6 @@ hr + hr {
 
 .page-id-124 h3 {
 
-	color: #cc303a;
 	font-size: 16px;
 	margin: 10px 0 10px;
 
@@ -1027,7 +1046,6 @@ hr + hr {
 
 .page-id-734 h3 {
 
-	color: #cc303a;
 	font-size: 16px;
 	margin: 10px 0 10px;
 
@@ -1059,6 +1077,15 @@ div.content .newsletter-box p {
 div.content .newsletter-box .post-newsletter-message {
 	display:block;
 	margin-bottom:0.6em;
+}
+
+.group-blog .entry-content ul,
+.group-blog .entry-content ol {
+	margin:1em 0;
+	padding-left:40px;
+}
+.group-blog .entry-content hr {
+	margin-bottom:20px;
 }
 
 .add-comment {
@@ -1204,7 +1231,6 @@ div.content .newsletter-box .post-newsletter-message {
 
 .two-column a.comments-link:hover {
 
-	color: #cc303a;
 
 }
 
