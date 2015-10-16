@@ -5,6 +5,7 @@ wp
 wp-config.php
 
 wp-content/*
+!wp-content/mu-plugins
 !wp-content/themes
 wp-content/themes/*
 !wp-content/themes/jasonyoga

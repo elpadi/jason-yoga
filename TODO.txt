@@ -1,0 +1,7 @@
+testimonials:
+	create private page
+	create post type
+	add fields and content
+	create template to show them
+	make public and create menu link
+
