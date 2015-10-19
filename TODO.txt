@@ -1,8 +1,11 @@
 testimonials:
 	create private page
 	create post type
--------------------------------------------
-	add fields and content
+	add fields and initial content
 	create template to show them
-	make public and create menu link
+	desktop styles
+-------------------------------------------
+	responsive styles
+	finish content
+	create menu link
 
