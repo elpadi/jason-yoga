@@ -4,8 +4,8 @@ testimonials:
 	add fields and initial content
 	create template to show them
 	desktop styles
+	finish content
 -------------------------------------------
 	responsive styles
-	finish content
 	create menu link
 

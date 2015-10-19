@@ -57,7 +57,7 @@ trait PostQueriesTrait {
 		return "LEFT JOIN `$wpdb->postmeta` $key ON posts.`ID`=$key.`post_id` AND $key.`meta_key`='$key'";
 	}
 
-	public static function customPostsQuery($ids, $fields) {
+	public static function customPostsQuery($ids, $fields, $order_clause='') {
 		global $wpdb;
 
 		$selects = ["posts.*"];
@@ -100,6 +100,7 @@ trait PostQueriesTrait {
 		}
 
 		$sql = sprintf('SELECT %s FROM %s WHERE posts.`ID` IN (%s)', implode(',', $selects), implode(' ', $froms), implode(',', $ids));
+		if (!empty($order_clause)) $sql .= "ORDER BY $order_clause";
 		return $wpdb->get_results($sql);
 	}
 

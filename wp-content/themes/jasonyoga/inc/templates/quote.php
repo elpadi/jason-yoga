@@ -1,4 +1,4 @@
-<article class="quote">
+<article class="quote" <?php if (isset($quote->thumb)): ?>style="background-image:url(<?php echo $quote->thumb; ?>);"<?php endif; ?>>
 	<blockquote><?php echo apply_filters('the_content', '<span class="quote-mark open">“</span>'.$quote->testimonial_quote.'<span class="quote-mark close">”</span>'); ?></blockquote>
 	<footer>
 		<span><?php echo $quote->author_name; ?></span>
