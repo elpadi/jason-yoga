@@ -274,9 +274,11 @@
 
 	.group-blog .contentwrapper {
 		box-sizing:border-box;
+		/*
 		width:100%;
 		padding-left:20px;
 		margin-left:0;
+		*/
 	}
 
 	#header-newsletter-box {
@@ -455,11 +457,13 @@
 	
 	}
 
+	/*
 	.group-blog .contentwrapper {
 
 		padding-right:20px;
 
 	}
+	*/
 
 	.group-blog .content {
 

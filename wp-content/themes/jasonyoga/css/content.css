@@ -61,6 +61,14 @@ hr,
 
 }
 
+@media (max-width:855px) {
+	.contentwrapper {
+		width:auto;
+		padding-left:10px;
+		padding-right:10px;
+	}
+}
+
 .two-column .contentwrapper {
 
 	margin-left:9.48%;

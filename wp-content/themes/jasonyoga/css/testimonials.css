@@ -26,8 +26,12 @@
 }
 
 .quote-box > ul {
-	background:rgb(207,43,60) none left center no-repeat;
-	background-size:auto 100%;
+	background:rgb(207,43,60) none center top no-repeat;
+	background-size:100% auto;
+}
+.quote-box li {
+	background-color:rgb(207,43,60);
+	padding:2em;
 }
 .quote-box blockquote {
 	color:white;
@@ -44,7 +48,7 @@
 	margin-left:0.1em;
 }
 .quote-box footer {
-	font-size:17px;
+	font-size:14px;
 }
 .quote-box footer span {
 	display:block;
@@ -53,13 +57,13 @@
 
 #featured-quote > ul {
 	background-image:url(../images/testimonials/street.jpg);
-	padding:5% 4% 3% 32%;
+	padding-top:118%;
+}
+#featured-quote blockquote p {
+	font-size:15px;
 }
 #featured-quote blockquote {
 	margin-bottom:25px;
-}
-#featured-quote blockquote p {
-	font-size:21px;
 }
 #featured-quote footer {
 	color:white;
@@ -95,10 +99,9 @@
 	margin:0;
 }
 #main-quotes .quote {
-	padding-left:183px;
-	background:transparent none left top no-repeat;
+	padding-top:183px;
+	background:transparent none center top no-repeat;
 	background-size:162px auto;
-	min-height:162px;
 }
 #main-quotes p {
 	font-size:15px;
@@ -124,6 +127,62 @@
 .post-type-archive-jy_testimonials .jasons-quote {
 	text-align:center;
 	font-size:20px;
-	margin:50px 10%;
+	margin:50px 0;
 	line-height:2;
+}
+
+@media (min-width:640px) {
+	.quote-box > ul {
+		background-position:left center;
+		background-size:auto 100%;
+	}
+	.quote-box li {
+		padding:0;
+	}
+	#featured-quote > ul {
+		padding:5% 2% 3% 44%;
+	}
+	#main-quotes .quote {
+		padding-top:0;
+		padding-left:183px;
+		background-position:left top;
+		min-height:162px;
+	}
+	.post-type-archive-jy_testimonials .jasons-quote {
+		margin-left:10%;
+		margin-right:10%;
+	}
+}
+@media (min-width:700px) {
+	.quote-box footer {
+		font-size:16px;
+	}
+	#featured-quote > ul {
+		padding-left:40%;
+		padding-right:5%;
+	}
+	#featured-quote blockquote p {
+		font-size:16px;
+	}
+}
+@media (min-width:760px) {
+	.quote-box footer {
+		font-size:17px;
+	}
+	#featured-quote > ul {
+		padding-left:35%;
+		padding-right:8%;
+	}
+	#featured-quote blockquote p {
+		font-size:19px;
+	}
+}
+@media (min-width:855px) {
+	#featured-quote > ul {
+		padding-left:32%;
+		padding-right:4%;
+	}
+	#featured-quote blockquote p {
+		font-size:21px;
+	}
 }
