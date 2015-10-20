@@ -28,14 +28,12 @@
 .quote-box > ul {
 	background:rgb(207,43,60) none left center no-repeat;
 	background-size:auto 100%;
-	padding:14% 6% 14% 49%;
 }
 .quote-box blockquote {
 	color:white;
 }
 .quote-box blockquote p {
-	font-size:21px;
-	line-height:1.6;
+	line-height:1.2;
 	margin:0;
 	color:inherit;
 }
@@ -55,9 +53,13 @@
 
 #featured-quote > ul {
 	background-image:url(../images/testimonials/street.jpg);
+	padding:5% 4% 3% 32%;
 }
 #featured-quote blockquote {
 	margin-bottom:25px;
+}
+#featured-quote blockquote p {
+	font-size:21px;
 }
 #featured-quote footer {
 	color:white;
@@ -81,7 +83,6 @@
 #short-quotes blockquote p {
 	font-weight:bold;
 	font-size:24px;
-	line-height:1.2;
 }
 #short-quotes footer {
 	font-size:21px;
