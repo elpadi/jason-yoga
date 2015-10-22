@@ -73,7 +73,7 @@
 }
 #short-quotes > ul {
 	background-image:url(../images/testimonials/studio.jpg);
-	padding:7% 9% 7% 48%;
+	padding:7% 4% 4% 48%;
 }
 #short-quotes li {
 	margin-bottom:2em;
@@ -85,8 +85,7 @@
 	text-transform:uppercase;
 }
 #short-quotes blockquote p {
-	font-weight:bold;
-	font-size:24px;
+	font-size:20px;
 }
 #short-quotes footer {
 	font-size:21px;
