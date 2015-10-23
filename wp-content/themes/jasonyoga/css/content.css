@@ -1073,17 +1073,20 @@ div.content .newsletter-box {
 div.content .newsletter-box h3 {
 	font-size:1.6em;
 	margin:0.6em;
+	color:white;
 }
 div.content .newsletter-box p {
-	display:none;
 	color:white;
 	text-align:center;
 	font-size:15px;
 	line-height:18px;
+	margin:1em 0 0;
 }
-div.content .newsletter-box .post-newsletter-message {
-	display:block;
-	margin-bottom:0.6em;
+body.blog div.content .newsletter-box p:not(.post-newsletter-message) {
+	display:none;
+}
+.single div.content .newsletter-box p {
+	text-indent:-12px;
 }
 
 .group-blog .entry-content ul,
