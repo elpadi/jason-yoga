@@ -1,8 +1,12 @@
 .post-type-archive-jy_testimonials {
 	color:#414042;
 }
+.post-type-archive-jy_testimonials .contentwrapper {
+	width:auto;
+	padding:0;
+}
 .post-type-archive-jy_testimonials h1 {
-	margin:2.5em 0 1.2em;
+	margin:1em 0 1em 0.75em;
 }
 .post-type-archive-jy_testimonials ul {
 	list-style-type:none;
@@ -26,12 +30,13 @@
 }
 
 .quote-box > ul {
+	padding-top:154%;
 	background:rgb(207,43,60) none center top no-repeat;
 	background-size:100% auto;
 }
 .quote-box li {
 	background-color:rgb(207,43,60);
-	padding:2em;
+	padding:1.5em;
 }
 .quote-box blockquote {
 	color:white;
@@ -57,7 +62,6 @@
 
 #featured-quote > ul {
 	background-image:url(../images/testimonials/street.jpg);
-	padding-top:118%;
 }
 #featured-quote blockquote p {
 	font-size:15px;
@@ -69,14 +73,11 @@
 	color:white;
 }
 #short-quotes {
-	margin-bottom:70px;
+	margin-bottom:23px;
 }
 #short-quotes > ul {
+	padding-bottom:6%;
 	background-image:url(../images/testimonials/studio.jpg);
-	padding:7% 4% 4% 48%;
-}
-#short-quotes li {
-	margin-bottom:2em;
 }
 #short-quotes li:last-child {
 	margin-bottom:0;
@@ -92,6 +93,16 @@
 	text-transform:none;
 }
 
+.post-type-archive-jy_testimonials .jasons-quote {
+	text-align:center;
+	font-size:20px;
+	margin:50px 0;
+	line-height:2;
+}
+
+#main-quotes, .jasons-quote {
+	padding:0 14px;
+}
 #main-quotes {
 	width:auto;
 	max-width:100%;
@@ -123,13 +134,15 @@
 }
 
 
-.post-type-archive-jy_testimonials .jasons-quote {
-	text-align:center;
-	font-size:20px;
-	margin:50px 0;
-	line-height:2;
+@media (max-width:639px) {
+	.quote-box {
+		max-width:500px;
+		margin:0 auto;
+	}
+	#short-quotes li {
+		padding-bottom:1px;
+	}
 }
-
 @media (min-width:640px) {
 	.quote-box > ul {
 		background-position:left center;
@@ -141,15 +154,30 @@
 	#featured-quote > ul {
 		padding:5% 2% 3% 44%;
 	}
+	.post-type-archive-jy_testimonials .jasons-quote {
+		margin-left:10%;
+		margin-right:10%;
+	}
 	#main-quotes .quote {
 		padding-top:0;
 		padding-left:183px;
 		background-position:left top;
 		min-height:162px;
 	}
-	.post-type-archive-jy_testimonials .jasons-quote {
-		margin-left:10%;
-		margin-right:10%;
+	#short-quotes {
+		margin-bottom:70px;
+	}
+	#short-quotes > ul {
+		padding:4% 4% 4% 45%;
+	}
+	#short-quotes li {
+		margin-bottom:2em;
+	}
+	#short-quotes blockquote p {
+		font-size:18px;
+	}
+	#short-quotes footer {
+		font-size:18px;
 	}
 }
 @media (min-width:700px) {
@@ -164,7 +192,15 @@
 		font-size:16px;
 	}
 }
+@media (max-width:759px) {
+	#main-quotes li:last-child footer {
+		margin-bottom:15px;
+	}
+}
 @media (min-width:760px) {
+	.post-type-archive-jy_testimonials h1 {
+		margin:2.5em 0 1.2em;
+	}
 	.quote-box footer {
 		font-size:17px;
 	}
@@ -175,6 +211,15 @@
 	#featured-quote blockquote p {
 		font-size:19px;
 	}
+	#short-quotes > ul {
+		padding:4% 4% 4% 45%;
+	}
+	#short-quotes blockquote p {
+		font-size:20px;
+	}
+	#short-quotes footer {
+		font-size:21px;
+	}
 }
 @media (min-width:855px) {
 	#featured-quote > ul {
@@ -182,6 +227,12 @@
 		padding-right:4%;
 	}
 	#featured-quote blockquote p {
+		font-size:22px;
+	}
+	#short-quotes > ul {
+		padding:5% 12% 5% 43%;
+	}
+	#short-quotes footer {
 		font-size:21px;
 	}
 }

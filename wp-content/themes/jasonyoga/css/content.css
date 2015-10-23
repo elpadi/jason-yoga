@@ -54,18 +54,16 @@ hr,
 }
 
 .contentwrapper {
-	
-	margin: 35px auto 0;
-	width:100%;
 	max-width:835px;
-
+	padding-left:10px;
+	padding-right:10px;
 }
 
-@media (max-width:855px) {
+@media (min-width:855px) {
 	.contentwrapper {
-		width:auto;
-		padding-left:10px;
-		padding-right:10px;
+		width:100%;
+		padding:0;
+		margin: 35px auto 0;
 	}
 }
 

@@ -25,7 +25,7 @@ class JY extends App {
 		); 
 		$post->author_name = get_the_title($post);
 		$post->author_info_parts = explode("\n", $post->author_info);
-		if ($post->author_name === 'Jason Candrell') $post->quote_type = 'jason';
+		if ($post->author_name === 'Jason Crandell') $post->quote_type = 'jason';
 		if (!empty($post->thumb_serialized)) {
 			$upload_dir = wp_upload_dir();
 			$data = unserialize($post->thumb_serialized);
