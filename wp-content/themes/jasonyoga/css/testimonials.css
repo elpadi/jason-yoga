@@ -112,6 +112,7 @@
 	padding-top:183px;
 	background:transparent none center top no-repeat;
 	background-size:162px auto;
+	margin-bottom:70px;
 }
 #main-quotes p {
 	font-size:15px;
@@ -123,7 +124,6 @@
 	line-height:1.3;
 	padding-bottom:25px;
 	border-bottom:1px solid #cc303a;
-	margin-bottom:70px;
 }
 #main-quotes footer span::after {
 	content:'|';
