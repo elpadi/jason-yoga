@@ -125,10 +125,13 @@
 	padding-bottom:25px;
 	border-bottom:1px solid #cc303a;
 }
+#main-quotes footer a::after,
 #main-quotes footer span::after {
 	content:'|';
+	color:#414042;
 	margin:0 0.2em 0 0.4em;
 }
+#main-quotes footer a:last-child::after,
 #main-quotes footer span:last-child::after {
 	display:none;
 }
