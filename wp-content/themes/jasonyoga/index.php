@@ -68,7 +68,7 @@ get_header(); ?>
 			</div>
 
 		</div>
-		<?php get_sidebar(); ?>
+		<aside id="main-sidebar"><?php dynamic_sidebar('main-sidebar'); ?></aside>
 	</div>
 </div>
 

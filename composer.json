@@ -27,6 +27,8 @@
 	"wpackagist-plugin/query-monitor": "2.8.0",
 	"wpackagist-plugin/advanced-custom-fields": "4.4.3",
 	"wpackagist-plugin/post-type-archive-links": "1.3.1",
+	"wpackagist-plugin/image-widget": "4.1.2",
+	"wpackagist-plugin/most-commented": "2.2",
 	"wpackagist-plugin/contact-form-7": "4.3"
   },
   "extra": {
